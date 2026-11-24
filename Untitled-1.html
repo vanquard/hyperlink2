@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>KDS Store</title>
+        <link rel="stylesheet" href="Untitled-2.css">
+    </head>
+    <body>
+        <header>
+            <h1>KDS Store</h1>
+            <div class="cart-icon">
+                cart (<span id="cart-count">0</span>)
+            </div>
+        </header>
+
+        <section class="products" id="product-list">
+            <div class="product">
+                <img src="images/mouse.jpg" alt="Gaming Mouse">
+                <h3>Gaming Mouse</h3>
+                <p class="price">GH120</p>
+                <button onclick="addToCart(1, 'Gaming Mouse', 120)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="images/keyboard.jpg" alt="Keyboard">
+                <h3>Keyboard</h3>
+                <p class="price">GH200</p>
+                <button onclick="addToCart(2, 'keyboard', 200)"
